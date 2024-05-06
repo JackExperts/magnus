@@ -1,19 +1,19 @@
 ## Magnus 介绍
 
-Magnus 是 JumpServer 的数据库安全连接组件，支持多种数据库协议。Magnus 使用Golang实现，名字来源于 Dota 英雄 [为什么不ban](https://www.dota2.com/hero/magnus) 。
+Magnus é o componente de conexão segura de banco de dados do JumpServer, com suporte para vários protocolos de banco de dados. Implementado em Golang, seu nome é inspirado no herói Magnus do Dota ([Magnus](https://www.dota2.com/hero/magnus)).
 
-该仓库主要用于配置介绍和 Release 发布。
+Este repositório é principalmente para configuração e lançamento de versões.
 
-## Magnus 支持的功能
+## Recursos Suportados pelo Magnus
 
-- [x] 安全认证
-- [x] 客户端过滤
-- [x] SQL 过滤
-- [x] SQL 录像
-- [x] SQL 阻断
-- [x] SQL 复核 (X-Pack)
+- [x] Autenticação segura
+- [x] Filtro de cliente
+- [x] Filtro SQL
+- [x] Gravação de SQL
+- [x] Bloqueio de SQL
+- [x] Auditoria de SQL (X-Pack)
 
-## Magnus 支持的数据库
+## Bancos de Dados Suportados pelo Magnus
 
 - [x] MySQL 5.7/8.0+
 - [x] MariaDB
